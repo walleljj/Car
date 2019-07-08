@@ -81,7 +81,8 @@ public class AddCar extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 100, Short.MAX_VALUE)
         );
-
+        
+        
         jLabel1.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel1.setText("*车牌号：");
@@ -116,7 +117,14 @@ public class AddCar extends javax.swing.JFrame {
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel7.setText("*车辆状态：");
         jLabel7.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-
+        jTextField1.setName("cph");
+        jTextField2.setName("cllx");
+        jTextField3.setName("clrl");
+        jTextField4.setName("grsj");
+        jTextField5.setName("sfky");
+        jTextField6.setName("cljz");
+        jTextField7.setName("clzt");
+        jScrollPane1.setName("bz");
         jTextField1.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -190,6 +198,7 @@ public class AddCar extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jButton1.setText("确认");
+        jButton1.setName("okAdd");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);

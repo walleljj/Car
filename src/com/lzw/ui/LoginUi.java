@@ -81,7 +81,7 @@ public class LoginUi extends javax.swing.JFrame {
         jLabel3.setText("Id:");
         jLabel3.setToolTipText("");
         jLabel3.setVerticalAlignment(javax.swing.SwingConstants.TOP);
-
+        jTextField1.setName("name1");
         jTextField1.setFont(new java.awt.Font("宋体", 0, 24)); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,6 +93,7 @@ public class LoginUi extends javax.swing.JFrame {
         jRadioButton1.setFont(new java.awt.Font("宋体", 0, 24)); // NOI18N
         jRadioButton1.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton1.setText("管理员");
+        jRadioButton1.setName("adm");
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jRadioButton1ActionPerformed(evt);
@@ -103,9 +104,12 @@ public class LoginUi extends javax.swing.JFrame {
         jRadioButton2.setFont(new java.awt.Font("宋体", 0, 24)); // NOI18N
         jRadioButton2.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton2.setText("部门");
+        jRadioButton2.setName("dep");
+        
 
         jButton1.setFont(new java.awt.Font("宋体", 0, 24)); // NOI18N
         jButton1.setText("登录");
+        jButton1.setName("log");
         jButton1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 153), 1, true));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,6 +125,7 @@ public class LoginUi extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
+        jPasswordField1.setName("pass1");
 
         jPasswordField1.setFont(new java.awt.Font("宋体", 0, 24)); // NOI18N
 

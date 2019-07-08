@@ -68,6 +68,7 @@ public class DeletDepartment extends javax.swing.JFrame {
         jLabel1.setText("请输入部门Id：");
 
         jTextField1.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
+        jTextField1.setName("delId");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -81,6 +82,7 @@ public class DeletDepartment extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jButton1.setText("删除");
+        jButton1.setName("cel");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);

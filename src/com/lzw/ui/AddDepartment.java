@@ -145,6 +145,7 @@ public class AddDepartment extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("ÀŒÃÂ", 0, 18)); // NOI18N
         jButton1.setText("»∑»œ");
+        jButton1.setName("okAdd");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -158,6 +159,11 @@ public class AddDepartment extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
+        jTextField1.setName("deId");
+        jTextField2.setName("dePass");
+        jTextField3.setName("deName");
+        jTextField4.setName("deRen");
+        jTextField5.setName("dePhone");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);

@@ -65,7 +65,7 @@ public class DeletCar extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jLabel1.setText("请输入车牌号：");
-
+        jTextField1.setName("carId");
         jTextField1.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,6 +75,7 @@ public class DeletCar extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jButton1.setText("删除");
+        jButton1.setName("del");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -83,6 +84,7 @@ public class DeletCar extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jButton2.setText("取消");
+        jButton2.setName("cel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);

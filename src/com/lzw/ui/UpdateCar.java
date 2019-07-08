@@ -192,6 +192,7 @@ public class UpdateCar extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("ÀŒÃÂ", 0, 18)); // NOI18N
         jButton1.setText("»∑»œ");
+        jButton1.setName("okUp");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -205,6 +206,14 @@ public class UpdateCar extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
+        jTextField1.setName("cph");
+        jTextField2.setName("cllx");
+        jTextField3.setName("clrl");
+        jTextField4.setName("grsj");
+        jTextField5.setName("sfky");
+        jTextField6.setName("cljz");
+        jTextField7.setName("clzt");
+        jScrollPane1.setName("bz");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

@@ -67,6 +67,7 @@ public class CarDaoImpl implements CarDao {
 	@Override
 	public int delet(String id) {
 		String sql = "delete from tb_car where id="+id;
+		System.out.println(sql);
 		Connection conn =  DBUtil.open();
 		PreparedStatement pstmt;
 		try {

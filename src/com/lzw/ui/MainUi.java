@@ -181,7 +181,7 @@ public class MainUi extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-
+        jTable1.setName("table1");
         jTable1.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -205,7 +205,8 @@ public class MainUi extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("宋体", 0, 24)); // NOI18N
         jLabel1.setText("查询车辆：");
-
+        
+        jComboBox1.setName("ty");
         jComboBox1.setFont(new java.awt.Font("宋体", 0, 24)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-请选择条件-", "车牌号", "状态", "可用(是/否)" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
@@ -215,9 +216,11 @@ public class MainUi extends javax.swing.JFrame {
         });
 
         jTextField1.setFont(new java.awt.Font("宋体", 0, 24)); // NOI18N
+        jTextField1.setName("mess");
 
         jButton5.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jButton5.setText("查询");
+        jButton5.setName("findCar");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -285,7 +288,7 @@ public class MainUi extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("车辆管理", jPanel9);
-
+        jPanel9.setName("clgl");
         jButton6.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jButton6.setText("删除部门");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -379,6 +382,7 @@ public class MainUi extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("部门管理", jPanel10);
+        jPanel10.setName("bmgl");
 
         jButton10.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jButton10.setText("保养记录");

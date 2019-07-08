@@ -110,6 +110,7 @@ public class UseCardDaoImpl implements UseCardDao{
 	@Override
 	public List<UseCard> findByDe(String de) {
 		String sql = "select * from tb_usecard where department='"+de+"'";
+		System.out.println(sql);
 		Connection conn =  DBUtil.open();
 		PreparedStatement pstmt;
 		
